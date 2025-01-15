@@ -1,0 +1,21 @@
+name: uhe_daily_recipe
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - rioxarray
+  - coiled
+  - pandas
+  - numpy
+  - dask
+  - distributed
+  - bokeh
+  - ipykernel
+  - pre-commit
+  - uv
+  - pip:
+    - zarr>=3.0.0
+    - icechunk
